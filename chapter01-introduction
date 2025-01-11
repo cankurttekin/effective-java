@@ -1,0 +1,13 @@
+Fundamental principles:
+Clarity and simplicity: the user of a component should never be surprised by its behavior.
+Components should be as small as possible but no smaller.
+(Component refers to any reusable software element, individual method or complex framework consisting of multiple packages.)
+Code should be reused rather than copied.
+Dependencies between components should be kept to a minimum.
+Errors should be detected as soon as possible, ideally at compile time.
+
+This book is not about performance. It is about writing programs that are clear, correct, usable, robust, flexible and maintainable. 
+
+Java Lang Spec.: interfaces(inc. aannotations), classes(inc. enums), arrays and primitives.
+This book uses inheritance as a synonym for subclassing. instead of using the term inheritance for interfaces, a class implements an interface or that one interface extends another. when no access level specified, this book uses the traditional package-rpivate instead of the technically correct package access.
+API refers to the classses, interfaces, constructors, members and serialized forms by which a programmer accesses a class, interface or package.
